@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="heading">DOM Selectors</h1>
+    <ul>
+        <li id="item">getElementsByTagName</li>
+        <li class="selectors">getElementsByClassName</li>
+        <li class="selectors">getElementById</li>
+        <li id="item2">querySelector</li>
+        <li id="item3">querySelectorAll</li>
+    </ul>
+    <script>
+        // getElementsByTagName​
+        console.log(document.getElementsByTagName('h1')); //HTMLCollection [h1.heading]​
+        console.log(document.getElementsByTagName('h1')[0]);//<h1 class=​"heading">​DOM Selectors​</h1>​​
+        console.log(document.getElementsByTagName('li')[0]); //<li id="item">getElementsByTagName</li>​
+        // getElementsByClassName​
+        console.log(document.getElementsByClassName('heading')[0]); //<h1 class=​"heading">​DOM Selectors​</h1>​​
+        // getElementById​
+        console.log(document.getElementById('item')); //<li id="item">getElementsByTagName</li>​
+        // querySelector​
+        console.log(document.querySelector('#item')); //<li id="item">getElementsByTagName</li>​
+        // querySelectorAll​
+        console.log(document.querySelectorAll('.selectors')); //NodeList(2)​
+    </script>
+</body>
+
+</html>

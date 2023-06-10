@@ -1,0 +1,164 @@
+HTTP Request,Fetch all customer details,Fetch Customer by ID,Fetch Customer by Name,Fetch Customer by Email,Add new customer,Update customer details
+URL=>, http://localhost:3000/customers , http://localhost:3000/customers/2,  http://localhost:3000/customers?name=David,  http://localhost:3000/customers?email=david@gmail.com,  http://localhost:3000/customers,  http://localhost:3000/customers/7
+
+METHOD => , GET,GET,GET,GET,POST,PUT
+
+"Request Body ",  {
+      "id": 7,
+      "name": "Keshav",
+      "email": "Keshav123@gmail.com",
+      "phoneNumber": "+91965076445",
+      "address": {
+        "streetName": "Court Street",
+        "streetNo": "123",
+        "postalCode": "2617"
+      }
+    },
+    
+    {
+        "id": 7,
+        "name": "Keshav",
+        "email": "Keshav123@gmail.com",
+        "phoneNumber": "+918920149998",
+        "address": {
+            "streetName": "Beta II, Gr.Noida",
+            "streetNo": "block-B (B-07)",
+            "postalCode": "203207"
+        }
+    },,,,
+
+"Content Type"=> , application/json,  application/json ,,,,
+
+HTTP Response=> , Json array,  Json Object  ,  Json Object,  Json Object, Json Object, Json Object
+
+Status Code=>,200 , 200, 200, 200,201,200
+
+Status Message=> , OK, OK, OK, OK,CREATED,OK
+
+Body =>, [
+    {
+        "id": 1,
+        "name": "David",
+        "email": "david@gmail.com",
+        "phoneNumber": "+11527896543",
+        "address": {
+            "streetName": "Court Street",
+            "streetNo": "123",
+            "postalCode": "2617"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Mary",
+        "email": "mary@gmail.com",
+        "phoneNumber": "+11524449876",
+        "address": {
+            "streetName": "Scottsdale Kierland",
+            "streetNo": "100",
+            "postalCode": "85254"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Jennifer",
+        "email": "Jennifer@yahoo.com",
+        "phoneNumber": "+11525432178",
+        "address": {
+            "streetName": "Beachwalk",
+            "streetNo": "902",
+            "postalCode": "96815"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Jessica",
+        "email": "Jessica@live.com",
+        "phoneNumber": "+11523456732",
+        "address": {
+            "streetName": "Bellevue Square",
+            "streetNo": "378",
+            "postalCode": "98004"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Paul",
+        "email": "Paul@gmail.com",
+        "phoneNumber": "+11526789543",
+        "address": {
+            "streetName": "Buena Vista Drive",
+            "streetNo": "A-498",
+            "postalCode": "32830"
+        }
+    }
+] ,
+
+{
+    "id": 2,
+    "name": "Mary",
+    "email": "mary@gmail.com",
+    "phoneNumber": "+11524449876",
+    "address": {
+        "streetName": "Scottsdale Kierland",
+        "streetNo": "100",
+        "postalCode": "85254"
+    }
+}
+,
+
+{
+        "id": 1,
+        "name": "David",
+        "email": "david@gmail.com",
+        "phoneNumber": "+11527896543",
+        "address": {
+            "streetName": "Court Street",
+            "streetNo": "123",
+            "postalCode": "2617"
+        }
+}
+
+,
+
+{
+        "id": 1,
+        "name": "David",
+        "email": "david@gmail.com",
+        "phoneNumber": "+11527896543",
+        "address": {
+            "streetName": "Court Street",
+            "streetNo": "123",
+            "postalCode": "2617"
+        }
+}
+
+,
+
+ {
+      "id": 7,
+      "name": "Keshav",
+      "email": "Keshav123@gmail.com",
+      "phoneNumber": "+91965076445",
+      "address": {
+        "streetName": "Court Street",
+        "streetNo": "123",
+        "postalCode": "2617"
+      }
+    }
+    ,
+    
+    
+    {
+        "id": 7,
+        "name": "Keshav",
+        "email": "Keshav123@gmail.com",
+        "phoneNumber": "+918920149998",
+        "address": {
+            "streetName": "Beta II, Gr.Noida",
+            "streetNo": "block-B (B-07)",
+            "postalCode": "203207"
+        }
+    },,,,,,
+    
+
+Body,,,,,,

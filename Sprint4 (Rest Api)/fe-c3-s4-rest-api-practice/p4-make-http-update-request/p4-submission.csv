@@ -1,0 +1,85 @@
+"HTTP Request		",To update movie for id 514,To update movie for id 500
+
+"URL  ", http://localhost:3000/movies/514   ,  http://localhost:3000/movies/500
+
+"METHOD	", PUT,PUT
+
+"Request Body 	"   {
+    "id": 514,
+    "movieTitle": "Father of the Bride ",
+    "yearOfRelease": 2022,
+    "director": "Gary Alazraki",
+    "actor-1": {
+        "actorName": "Tom Cruise",
+        "onScreenName": "Capt. Pete"
+    },
+    "actor-2": {
+        "actorName": "Jennifer Connelly",
+        "onScreenName": "Penny Benjamin"
+    },
+    "actor-3": {
+        "actorName": "Miles Teller",
+        "onScreenName": "Lt. Bradley"
+    },
+    "rating": 6.9,
+    "genre": "Comady",
+    "isOnOTT": true
+}
+,
+
+{
+        "id": 500,
+        "movieTitle": "Top Gun ",
+        "yearOfRelease": 1986,
+        "director": "Tony Scott",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 8.0,
+        "genre": "Comady",
+        "isOnOTT": false
+    }
+
+"Content Type ",  application/json , application/json
+
+"HTTP Response	",Json Object , Json object
+
+"Status Code ", 200, 404
+
+"Status Message	", OK, NOT FOUND
+
+Body,   {
+    "id": 514,
+    "movieTitle": "Father of the Bride ",
+    "yearOfRelease": 2022,
+    "director": "Gary Alazraki",
+    "actor-1": {
+        "actorName": "Tom Cruise",
+        "onScreenName": "Capt. Pete"
+    },
+    "actor-2": {
+        "actorName": "Jennifer Connelly",
+        "onScreenName": "Penny Benjamin"
+    },
+    "actor-3": {
+        "actorName": "Miles Teller",
+        "onScreenName": "Lt. Bradley"
+    },
+    "rating": 6.9,
+    "genre": "Comady",
+    "isOnOTT": true
+}
+
+,
+
+{}
+

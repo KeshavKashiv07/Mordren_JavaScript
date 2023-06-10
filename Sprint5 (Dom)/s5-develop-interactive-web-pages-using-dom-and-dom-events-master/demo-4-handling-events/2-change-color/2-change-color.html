@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            font-size: larger;
+            padding: 15px;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button>Change color</button>
+    </div>
+
+    <script>
+        const btn = document.querySelector('button');
+        function random(number) {
+            return Math.floor(Math.random() * (number + 1));
+        }
+        btn.onclick = function () {
+            document.body.style.backgroundColor = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        }
+        window.onload = function () {
+            document.body.style.backgroundColor = 'black';
+        }
+        btn.onmouseover = function () {
+            document.getElementsByTagName("button")[0].style.backgroundColor = 'darkgrey';
+        }
+    </script>
+</body>
+
+</html>

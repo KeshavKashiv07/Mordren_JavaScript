@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function submitFeedback() {
+            alert("Form submitted successfully");
+            document.getElementById("feedbackForm").reset();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Feedback Form</h1>
+    </header>
+    <form id="feedbackForm" action="#" onsubmit="return submitFeedback()">
+        <h3>Please fill up your details here to share your experience</h3>
+
+        <div>
+            <input id="username" placeholder="Enter Username" required>
+        </div>
+        <div>
+            <input type="email" id="email" placeholder="Enter Email" required>
+        </div>
+        <div>
+            <input type="tel" id="contactNo" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                placeholder="Enter Contact No">
+        </div>
+        <div>
+            <input id="product" placeholder="Enter Product Purchased" required>
+        </div>
+        <div>
+            <textarea maxlength="70" id="comments" required
+                placeholder="Enter Comments in less than 70 characters"></textarea>
+        </div>
+        <div>
+            <label>Enter Purchase Date</label>
+            <input type="date" id="purchaseDate" placeholder="Enter Product Purchase Date" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

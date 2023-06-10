@@ -1,0 +1,78 @@
+{
+    "flights": [
+         {
+        "from" : "Chicago",
+        "to" : "New York",
+
+     "flightOptions":[ 
+        {
+        "departureDays": "M-Tu-W-Th-F",
+        "flightNo": "DL551",
+        "airlines": "Delta Airlines",
+        "departureTime": "06:00:00",
+        "arrivalTime": "09:13:00",
+        "stopOvers": null,
+        "isDirect": true,
+        "departureFrom": "ORD",
+        "arrivalAt": "LGA"
+      },
+      {
+        "departureDays": "M-T-W-Th",
+        "flightNo": "UA2202",
+        "airlines": "United Airlines",
+        "departureTime": "19:46:00",
+        "arrivalTime": "22:56:00",
+        "stopOvers": null,
+        "isDirect": true,
+        "departureFrom": "ORD",
+        "arrivalAt": "EWR"
+      },
+      {
+        "departureDays": "T-W-T",
+        "flightNo": "UA265",
+        "airlines": "United Airlines",
+        "departureTime": "18:00:00",
+        "arrivalTime": "21:15:00",
+        "stopOvers": null,
+        "isDirect": true,
+        "departureFrom": "ORD",
+        "arrivalAt": "LGA"
+      },
+      {
+        "departureDays": "Th",
+        "flightNo": "AA1378",
+        "airlines": "American Airlines",
+        "departureTime": "11:21:00",
+        "arrivalTime": "14:30:00",
+        "stopOvers": null,
+        "isDirect": true,
+        "departureFrom": "ORD",
+        "arrivalAt": "JFK"
+      },
+      {
+        "departureDays": "M-Tu-W-Th-F",
+        "flightNo": "DL556",
+        "airlines": "Delta Airlines",
+        "departureTime": "08:45:00",
+        "arrivalTime": "11:59:00",
+        "stopOvers": null,
+        "isDirect": true,
+        "departureFrom": "ORD",
+        "arrivalAt": "LGA"
+      },
+      {
+        "departureDays": "Tu",
+        "flightNo": "AA552",
+        "airlines": "American Airlines",
+        "departureTime": "18:23:00",
+        "arrivalTime": "21:32:00",
+        "stopOvers": null,
+        "isDirect": true,
+        "departureFrom": "ORD",
+        "arrivalAt": "EWR"
+      }
+     ]
+    }
+    ]
+  }
+  

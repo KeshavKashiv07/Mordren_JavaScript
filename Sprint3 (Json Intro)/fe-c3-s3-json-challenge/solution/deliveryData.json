@@ -1,0 +1,72 @@
+[
+  {
+    "deliveredBy": "Charles Garcia",
+    "orderNumber": 234324,
+    "customerName": "Michael Williams",
+    "phoneNumber": [{"Phone1": "+12052349876"} , {"Phone2": "+12052349876"}],
+    "customerAddress": {"StreetNo": "501m","StreetName": "Hopton Street","city": "Orlando","State": "Florida"},         
+    "tipAmount": 10,
+    "customerRating": 4.5,
+    "outletRating": 3
+  },
+  {
+    "deliveredBy": "Andrew Clark",
+    "orderNumber": 897655,
+    "customerName": "George Wilson",
+    "phoneNumber": [{"Phone1": "+12652349712"} , {"Phone2": "+12752344376"}],
+    "customerAddress": {"StreetNo": "281d","StreetName": "Sea View","city": "South Austin","State": "Texas"},
+    "tipAmount": 5,
+    "customerRating": 4,
+    "outletRating": 4.5
+  },
+  {
+    "deliveredBy": "Andrew Clark",
+    "orderNumber": 1560986,
+    "customerName": "Ella Rodriguez",
+    "phoneNumber": [{"Phone1": "+12902346589"} , {"Phone2": "+12902300610"}],
+    "customerAddress": {"StreetNo": "892g","StreetName": "Parkside Park","city": "Louiseville","State": "Kentucky"},
+    "tipAmount": 0,
+    "customerRating": 3,
+    "outletRating": 4
+  },
+  {
+    "deliveredBy": "Nicholas Taylor",
+    "orderNumber": 2224317,
+    "customerName": "Olivia Davis",
+    "phoneNumber": [{"Phone1": "+12452342200"} , {"Phone2": "+12452277881"}],
+    "customerAddress": {"StreetNo": "108a","StreetName": "Buller Hawthorns","city": "Trenton","State": "New Jersey"},
+    "tipAmount": 5,
+    "customerRating": 5,
+    "outletRating": 4
+  },
+  {
+    "deliveredBy": "Charles Garcia",
+    "orderNumber": 2887648,
+    "customerName": "Lucy Thomas",
+    "phoneNumber": [{"Phone1": "+13152119733"} , {"Phone2": "+13175264437"}],
+    "customerAddress": {"StreetNo": "557a","StreetName": "Cygnet Court","city": "Dover","State": "Delaware"},
+    "tipAmount": 20,
+    "customerRating": 1,
+    "outletRating": 2
+  },
+  {
+    "deliveredBy": "Charles Garcia",
+    "orderNumber": 234541,
+    "customerName": "Richard Mia",
+    "phoneNumber": [{"Phone1": "+12052333876"} , {"Phone2": "+12052343176"}],
+    "customerAddress": {"StreetNo": "501m","StreetName": "Hopton Street","city": "Orlando","State": "Florida"},
+    "tipAmount": 10,
+    "customerRating": 4.5,
+    "outletRating": 3
+  },
+  {
+    "deliveredBy": "Andrew Clark",
+    "orderNumber": 897690,
+    "customerName": "Eric Claire",
+    "phoneNumber": {"Phone1": "+12652387712" , "Phone2": "+12752322396"},
+    "customerAddress": {"StreetNo": "292f","StreetName": "North View","city": "South Austin","State": "Texas"},
+    "tipAmount": 10,
+    "customerRating": 4,
+    "outletRating": 4.5
+  }
+]

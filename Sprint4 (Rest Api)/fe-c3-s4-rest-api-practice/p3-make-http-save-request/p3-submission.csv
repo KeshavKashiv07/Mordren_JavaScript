@@ -1,0 +1,98 @@
+"HTTP Request	=>	",For Adding new movie with id 514,For Adding new movie with id 503
+
+"URL	=>	",   http://localhost:3000/movies, http://localhost:3000/movies
+
+"METHOD	=>",  POST,  POST
+
+"Request Body 	=>	",   {
+        "id": 514,
+        "movieTitle": "Top Gun",
+        "yearOfRelease": 2023,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 9.6,
+        "genre": "Action",
+        "isOnOTT": true
+    }   ,
+
+    {
+        "id": 503,
+        "movieTitle": "Top ",
+        "yearOfRelease": 2021,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 9.6,
+        "genre": "Action",
+        "isOnOTT": true
+    }
+
+"Content Type	=>",   application/json , application/json
+
+"HTTP Response	=>	",   Json Object,    Error: Insert failed, duplicate id
+    
+
+"Status Code	=>	", 201 , 500
+
+"Status Message	=>",   Created.  ,  Internal Server Error
+
+Body => ,   {
+        "id": 514,
+        "movieTitle": "Top Gun",
+        "yearOfRelease": 2023,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 9.6,
+        "genre": "Action",
+        "isOnOTT": true
+    }
+    
+    ,
+
+
+    Error: Insert failed, duplicate id
+at Function.insert (C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
+at C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
+at arrayReduce (C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
+at baseWrapperValue (C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
+at LodashWrapper.wrapperValue
+(C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
+at create (C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
+at Layer.handle [as handle_request]
+(C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
+at next (C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
+at next (C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
+at Route.dispatch
+(C:\Users\hp\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)

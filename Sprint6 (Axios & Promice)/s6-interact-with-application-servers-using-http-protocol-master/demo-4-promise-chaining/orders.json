@@ -1,0 +1,46 @@
+{
+    "orders": [
+        {
+            "id": "9876867986",
+            "orderDate": "22-Jul-2022",
+            "customerId": "316058a",
+            "products": [
+                {
+                    "productName": "mouse",
+                    "quantity": 2,
+                    "price": 400
+                }
+            ]
+        },
+        {
+            "id": "9876855338",
+            "orderDate": "22-Jul-2022",
+            "customerId": "316058a",
+            "products": [
+                {
+                    "productName": "ssd",
+                    "quantity": 2,
+                    "price": 400
+                }
+            ]
+        }
+    ],
+    "customers": [
+        {
+            "id": "316058a",
+            "name": "Brenda Watkins",
+            "gender": "female",
+            "email": "brendawatkins@visualix.com",
+            "phone": "+1 (985) 506-2849",
+            "address": "466 Bergen Street, Bagtown, Kentucky, 6339"
+        },
+        {
+            "id": "316058b",
+            "name": "Finch Marsh",
+            "gender": "male",
+            "email": "finchmarsh@visualix.com",
+            "phone": "+1 (868) 532-2477",
+            "address": "451 Wythe Place, Hollymead, North Carolina, 1179"
+        }
+    ]
+}
